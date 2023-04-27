@@ -1,0 +1,27 @@
+@media(max-width:930px){
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .cabecalho nav{
+        display: flexbox;
+        width: auto;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+    }
+
+    .cabecalho a{
+        padding: 2.5vh 0;
+        font-size: 3rem;
+        margin: 2rem;
+        
+        
+    }
+
+    .conteudo{
+        padding: 20px;
+    }
+}
