@@ -1,5 +1,7 @@
 @import url(./cabecalho.css);
 @import url(./rodape.css);
+@import url(./break-point-home.css);
+
 *{
     margin: 0;
     padding: 0;
@@ -21,10 +23,10 @@
    
 }
 .conteudo img{
-    width: 55vw;
-    height: 55vh;
-    max-width: 95%;
+    width: 300px;
+    height: 300px;
     display: block;
+    margin: 2% auto;
     text-align: center;
 }
 .conteudo figcaption{
@@ -39,3 +41,29 @@
     flex-shrink: 1;
     flex-basis: 300px;
 }
+
+@media (max-width: 1125px) {
+    .conteudo {
+      max-width: 90vw;
+      padding: 2% 0;
+    }
+    .conteudo h2 {
+      font-size: 3rem;
+    }
+    .conteudo img {
+      width: 200px;
+      height: 200px;
+    }
+    .conteudo figcaption {
+      padding: 2% 0;
+    }
+    .conteudo > div {
+      flex-basis: 200px;
+    }
+
+    .rodape nav img{
+        width: 5vh;
+        align-items: center;      
+       
+    }
+  }
