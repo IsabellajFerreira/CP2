@@ -23,12 +23,11 @@
 .conteudo img{
     max-width: 100%;
     display: block;
+    text-align: center;
 }
 .conteudo figcaption{
     text-align: center;
 }
-
-
 .conteudo > div{
     flex-grow: 1;
     flex-shrink: 1;
