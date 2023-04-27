@@ -1,6 +1,12 @@
 @import url(./cabecalho.css);
+<<<<<<< HEAD
+<<<<<<< HEAD
+@import url(./rodape.css)
+=======
+=======
 @import url(./break-point-930px.css);
 @import url(./break-point-615px.css);
+>>>>>>> origin/main
 
 .conteudo h2{
     margin: 2% auto;
@@ -23,3 +29,4 @@
     width: 300px;
     margin: 0 auto;
 }
+>>>>>>> 7736a97da57957958b291790709ecd53597ea9fc
