@@ -8,7 +8,7 @@
     }
     .conteudo img {
       width: 200px;
-      height: 200px;
+      height: auto;
     }
     .conteudo figcaption {
       padding: 2% 0;
