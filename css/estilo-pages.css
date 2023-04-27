@@ -23,3 +23,6 @@
     width: 300px;
     margin: 0 auto;
 }
+.conteudo figcaption{
+    text-align: center;
+}
