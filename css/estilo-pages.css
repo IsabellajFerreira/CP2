@@ -1,7 +1,7 @@
 @import url(./cabecalho.css);
 @import url(./rodape.css);
-@import url(./break-point-930px.css);
-@import url(./break-point-615px.css);
+@import url(./break-point-pages.css);
+
 .conteudo h2{
     margin: 2% auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;

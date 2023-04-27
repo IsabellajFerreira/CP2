@@ -1,0 +1,25 @@
+@media (max-width: 1125px) {
+    .conteudo {
+      max-width: 90vw;
+      padding: 2% 0;
+    }
+    .conteudo h2 {
+      font-size: 3rem;
+    }
+    .conteudo img {
+      width: 200px;
+      height: 200px;
+    }
+    .conteudo figcaption {
+      padding: 2% 0;
+    }
+    .conteudo > div {
+      flex-basis: 200px;
+    }
+
+    .rodape nav img{
+        width: 5vh;
+        align-items: center;      
+       
+    }
+  }
