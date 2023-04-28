@@ -1,84 +1,63 @@
-/* @media (max-width: 1125px) {
-    .conteudo {
-      max-width: 90vw;
-      padding: 2% 0;
-    }
-    .conteudo h2 {
-      font-size: 3rem;
-    }
-    .conteudo img {
-      width: 200px;
-      height: auto;
-    }
-    .conteudo figcaption {
-      padding: 2% 0;
-    }
-    .conteudo > div {
-      flex-basis: 200px;
-    }
+@media(max-width:1150px){
+  .cabecalho{
+      flex-direction: column;
 
-    .rodape nav img{
-        width: 5vh;
-        align-items: center;      
-       
-    }
-  } */
-  @media(max-width:930px){
-    .cabecalho{
-        flex-direction: column;
-    }
-    .cabecalho nav{
-      flex-wrap: nowrap;
-      margin: 10px;
-    }
-    .cabecalho a{
-      padding: 0;
-      font-size: 2.5rem;
-      margin: 10px
-    }
-    .conteudo p{
-        padding: 2%;
-    }
-    .rodape nav{
-      justify-content: center;
-      flex-wrap: nowrap;
-      margin: 10px 0;
-    }
-    .rodape img{
-      margin: 20px;
-      width: 6vh;
-    }
-    .rodape h2{
-      font-size: 2.5rem;
-      padding: 0 2%;
-    }
-}
-
-@media(max-width:615px){
-  .cabecalho nav{
-    flex-direction: column;
-  }
-  .cabecalho a{
-    font-size: 2rem;
-    padding: 2%;
-    margin: 0;
   }
   .cabecalho img{
-    min-width: 100px;
+      display: block;
   }
+  .cabecalho > a{
+      padding: 0;
+      padding-bottom: 10px;
+      margin: 0;
+  }
+  .cabecalho nav a{
+      font-size: 3rem;
+  }
+
   .conteudo p{
     padding: 5%;
   }
+  .rodape{        
+      margin: 10% auto 0 auto;
+      background-color: #141414;
+  }
   .rodape nav{
-    justify-content: center;
-    flex-wrap: nowrap;
-    margin: 10px;
+      flex-wrap: nowrap;
+      justify-content: center;
+      margin: 0 200px;
+      
+  }  
+  
+  .rodape nav img{
+      width: 8vh;
+      align-items: center;
+      margin: 30px;
+     
   }
-  .rodape img{
-    margin: 10px;
-  }
+  
   .rodape h2{
-    font-size: 2rem;
-    padding: 0 2%;
+      margin: 0 auto;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+      font-size: 3rem;
+      text-align: center;
+      padding: 0 2%;
+      color: #ffff;
   }
+}
+@media(max-width:850px){
+  .cabecalho{
+    flex-direction: row;
+}
+.cabecalho > a{
+    margin: 10px;
+}
+.cabecalho img{
+    margin: 1px;
+    width: 100px;
+}
+.cabecalho nav a{
+    font-size: 2.5rem;
+    padding-top: 1%;
+}
 }
