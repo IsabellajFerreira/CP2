@@ -1,20 +1,21 @@
 .rodape{
     display: flex;
     flex-direction: column;
-    margin: 2% 0 auto;
-    background-color: #f5f5f5;
+    margin: 10% auto 0 auto;
+    background-color: #141414;
 }
 .rodape nav{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: center;
     margin: 0 400px;
     
 }  
 
 .rodape nav img{
     width: 8vh;
-    align-items: center;      
+    align-items: center;
+    margin: 30px;
    
 }
 
@@ -24,4 +25,5 @@
     font-size: 3rem;
     text-align: center;
     padding: 0 2%;
+    color: #ffff;
 }
