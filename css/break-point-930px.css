@@ -18,10 +18,21 @@
         font-size: 3rem;
         margin: 2rem;
         
-        
     }
 
     .conteudo{
         padding: 20px;
+    }
+}
+
+@media(max-width:615px){
+    .cabecalho nav{
+        flex-direction: column;
+
+    }
+    .cabecalho a{
+        font-size: 2.5rem;
+        margin: 0;
+
     }
 }

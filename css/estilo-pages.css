@@ -1,6 +1,6 @@
 @import url(./cabecalho.css);
-@import url(./break-point-930px.css);
-@import url(./break-point-615px.css);
+@import url(./rodape.css);
+@import url(./break-point-pages.css);
 
 .conteudo h2{
     margin: 2% auto;
@@ -22,4 +22,7 @@
     display: flex;
     width: 300px;
     margin: 0 auto;
+}
+.conteudo figcaption{
+    text-align: center;
 }
